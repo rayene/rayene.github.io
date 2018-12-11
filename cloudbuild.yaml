@@ -1,4 +1,4 @@
 steps:
   - name: gcr.io/cloud-builders/gsutil
-    args: ["-m", "rsync", "-r", "-c", ".", "gs://rayene.benrayana.net"]
+    args: ["-m", "rsync", "-r", "-c", "./resume/", "gs://rayene.benrayana.net"]
 
