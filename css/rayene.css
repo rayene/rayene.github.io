@@ -9,12 +9,20 @@ body {
   text-align:justify;
 }
 
+/*
 @media print {
   a[href]:after {
     content: none !important;
   }
   .col-xs-6{
     width: 100%;
+  }
+}
+*/
+
+@media print {
+  a[href]:after {
+    content: none !important;
   }
 }
 
